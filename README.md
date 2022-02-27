@@ -15,7 +15,7 @@ This project uses the pandas, hvplot, tensorflow, keras and sklearn libraries.
 After tuning and comparing LSTM models using the Crypto FNG Index and BTC closing prices, it is evident that using BTC closing prices tracks actual values better over time. It also demonstrates a lower loss when compared to the FNG model. When tuning the model, the window size that works best is 1 day. The greater the window size, the less the model tracks the actual values over time and the greater the loss. Ultimately, it is not advised to try and predict closing prices. At best, the model can be used to understand the predicted trend rather than the actual price.
 
 ## LSTM Model Comparison
----
+
 ![LSTM_BTC](Images/LSTM_BTC.png)
 
 ![LSTM_FNG](Images/LSTM_FNG.png)
